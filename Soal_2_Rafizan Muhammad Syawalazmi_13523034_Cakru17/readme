@@ -1,0 +1,17 @@
+Battle of Robots!!!
+
+cara memainkan Battle of Robots:
+> run Jawaban_2.py
+> pilih opsi yang diinginkan (langsung main game/menambahkan robot baru/menambahkan weapon baru)
+> jika ingin menambahkan sesuatu terlebih dahulu, ikuti instruksi stats yang dibutuhkan (BTW robot/senjata baru tidak akan ke-save)
+> jika ingin main game, pilih 2 robot yang ingin bertempur. robot pertama akan jalan lebih dahulu
+> tonton pertarungan antar 2 robot (proses menentukan action AI bisa jadi0 lambat)
+
+
+Cara kerja battle:
+turn dimulai dengan robot pertama dan kemudian bergantian sampai ada salah satu robot yang mati
+pada masing masing turn, robot dapat bisa:
+- Pass turn
+- Attack melee robot musuh
+- Shoot robot musuh dengan primary/secondary
+- Defend dan dapat mengurangi 50% damage musuh selanjutnya
